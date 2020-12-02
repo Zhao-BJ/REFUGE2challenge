@@ -25,8 +25,8 @@ visdom_env = 'REFUGE2challenge/OD_Fovea_Reg/UNet'
 
 
 # Data
-data_root = '/home/ubuntu/zhaobenjian/dataset/'
-project_root = '/home/ubuntu/zhaobenjian/Challenge/'
+data_root = ''
+project_root = ''
 REFUGE1_dir = os.path.join(data_root, 'Glaucoma/REFUGE/resize512/REFUGE1/')
 save_dir = os.path.join(project_root, 'REFUGE2challenge/demo/OD_Fovea_Reg/results/UNet')
 if not os.path.exists(save_dir):
