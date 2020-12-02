@@ -15,8 +15,8 @@ os.environ["CUDA_VISIBLE_DEVICES"] = "1"
 
 # hyper parameters
 num_classes = 2
-data_root = '/home/ubuntu/zhaobenjian/dataset/'
-project_root = '/home/ubuntu/zhaobenjian/Challenge/'
+data_root = ''
+project_root = ''
 resume = os.path.join(project_root,
         'REFUGE2challenge/demo/CENet_for_Seg/results/CENet_for_REFUGE1/CENet_for_REFUGE1.pth')
 
