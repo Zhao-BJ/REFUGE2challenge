@@ -20,8 +20,8 @@ REFUGE1_batch_size = 4
 num_classes = 2
 lr = 0.001
 epoch_num = 200
-data_root = '/home/ubuntu/zhaobenjian/dataset/'
-project_root = '/home/ubuntu/zhaobenjian/Challenge/'
+data_root = ''
+project_root = ''
 resume = None
 visdom_env = 'REFUGE2challenge/CENet_for_Seg/CENet_for_REFUGE1'
 
