@@ -24,8 +24,8 @@ visdom_env = 'REFUGE2challenge/ResNet_for_Cls/ResNet50_2GAP'
 
 
 # Data prepare
-data_root = '/home/ubuntu/zhaobenjian/dataset/'
-project_root = '/home/ubuntu/zhaobenjian/Challenge/'
+data_root = ''
+project_root = ''
 train_dir = os.path.join(data_root, 'Glaucoma/REFUGE/crop512/REFUGE1/')
 valid_dir = os.path.join(data_root, 'Glaucoma/REFUGE/crop512/REFUGE1/')
 save_dir = os.path.join(project_root, 'REFUGE2challenge/demo/ResNet_for_Cls/results/ResNet50_2GAP')
