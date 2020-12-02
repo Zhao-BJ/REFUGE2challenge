@@ -14,8 +14,8 @@ os.environ["CUDA_VISIBLE_DEVICES"] = "2"
 
 # Hyper parameters
 num_classes = 2
-data_root = '/home/ubuntu/zhaobenjian/dataset/'
-project_root = '/home/ubuntu/zhaobenjian/Challenge/'
+data_root = ''
+project_root = ''
 resume = os.path.join(project_root,
         'REFUGE2challenge/demo/ResNet_for_Cls/results/ResNet50_with_ONH_img_v2/ResNet50_with_ONH_img.pth')
 
