@@ -13,9 +13,9 @@ DiscCrop_size = 512
 
 
 img_dir = 'H:/Glaucoma/REFUGE/original/REFUGE2-Test/'
-#mask_dir = 'H:/AMD/Annotation-DF-Training400/Training400/Disc_Masks_unified/'
+#mask_dir = ''
 disc_save_dir = 'H:/Glaucoma/REFUGE/crop512/test/img/'
-#mask_save_dir = 'H:/AMD/process/crop448/train/mask/'
+#mask_save_dir = ''
 coord_save_dir = "H:/Glaucoma/REFUGE/crop512/test/coord/"
 
 if not os.path.exists(disc_save_dir):
