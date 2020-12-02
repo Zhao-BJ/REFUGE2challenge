@@ -80,16 +80,3 @@ def disc_crop(org_img, DiscROI_size, C_x, C_y, img_mode='RGB'):
         disc_region[err_coord[0]:err_coord[1], err_coord[2]:err_coord[3]] = org_img[crop_coord[0]:crop_coord[1],
                                                                               crop_coord[2]:crop_coord[3]]
     return disc_region, err_coord, crop_coord
-
-
-if __name__ == '__main__':
-    import matplotlib.pyplot as plt
-    from PIL import Image
-
-    img_path = '/home/ubuntu/zhaobenjian/dataset/AMD/original/Annotation-DF-Training400/Training400/Disc_Fovea_Illustration/A0001.jpg'
-
-    img = Image.open(img_path)
-    img = img_center_cut(img, 448)
-    plt.imshow(img)
-    img = np.array(img)
-    print(img.shape)
