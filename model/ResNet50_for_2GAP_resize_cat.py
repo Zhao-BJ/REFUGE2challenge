@@ -13,7 +13,7 @@ except ImportError:
     from torch.utils.model_zoo import load_url as load_state_dict_from_url
 
 
-pretrain_root = '/home/ubuntu/zhaobenjian/pretrained_model/'
+pretrain_root = ''
 
 
 # Pretrained model
