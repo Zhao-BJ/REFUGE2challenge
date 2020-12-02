@@ -18,8 +18,8 @@ os.environ['CUDA_VISIBLE_DEVICES'] = '3'
 # hyper parameters
 batch_size = 1
 num_classes = 1
-data_root = '/home/ubuntu/zhaobenjian/dataset/'
-project_root = '/home/ubuntu/zhaobenjian/Challenge/'
+data_root = ''
+project_root = ''
 resume = os.path.join(project_root, 'REFUGE2challenge/demo/OD_Fovea_Reg/results/UNet/UNet_for_OD_Fovea_Reg.pth')
 
 
